@@ -4,7 +4,9 @@ from app.schemas import *
 from typing import List
 
 
-router = APIRouter()
+router = APIRouter(
+    ags = ["Books"], # changing our list on docs
+)
 
 
 @router.get('/book/{id}') # geting book from id
