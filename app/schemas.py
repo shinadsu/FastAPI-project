@@ -13,4 +13,8 @@ class userschema(BaseModel):
 class userschemain(BaseModel):
     username: str
     password: str
+        
+class loginschema(BaseModel):
+    username: str
+    password: str
     
