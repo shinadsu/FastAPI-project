@@ -10,9 +10,7 @@ import uvicorn
 
 
 
-app = FastAPI(
-    tags = ["Books"], # changing our list on docs 
-)
+app = FastAPI()
 
 
 
