@@ -25,7 +25,7 @@ async def authentificate(request: loginschema):
     return {'message:', 'Got it! You are authentificated'}
    
 
-
+# Надо бы сделать логинку по JWT https://fastapi.tiangolo.com/ru/tutorial/security/oauth2-jwt/?h=jwt
 
         
         
