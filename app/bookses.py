@@ -5,7 +5,7 @@ from typing import List
 
 
 router = APIRouter(
-    ags = ["Books"], # changing our list on docs
+    tags = ["Books"], # changing our list on docs
 )
 
 
